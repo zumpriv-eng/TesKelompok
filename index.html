@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Tugas Kelompok</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <nav class="top-bar">
+        <h1>📚 Tugas Kelompok</h1>
+        <button id="dark-toggle">🌙</button>
+    </nav>
+
+    <section class="profile-section">
+        <h2>👥 Anggota Kelompok</h2>
+
+        <div class="profiles">
+
+            <div class="profile-card">
+                <img src="" alt="">
+                <h3>Sait</h3>
+                <p>Peneliti Materi</p>
+            </div>
+
+            <div class="profile-card">
+                <img src="" alt="">
+                <h3>Budi Setiawan</h3>
+                <p>Desainer Slide</p>
+            </div>
+
+            <div class="profile-card">
+                <img src="" alt="">
+                <h3>Citra Ayu</h3>
+                <p>Penulis Laporan</p>
+            </div>
+
+            <div class="profile-card">
+                <img src="" alt="">
+                <h3>Dina Maharani</h3>
+                <p>Presenter</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="card fade">
+        <h2>📘 Deskripsi Tugas</h2>
+        <p>
+            Membuat presentasi dan laporan mengenai perkembangan teknologi AI dalam kehidupan sehari-hari.
+        </p>
+    </section>
+
+    <section class="task-section fade">
+        <h2>📝 Checklist Tugas</h2>
+
+        <div class="task-list">
+            <label><input type="checkbox" class="job"> Riset Materi Selesai</label>
+            <label><input type="checkbox" class="job"> Desain Slide Selesai</label>
+            <label><input type="checkbox" class="job"> Penulisan Laporan Selesai</label>
+            <label><input type="checkbox" class="job"> Latihan Presentasi</label>
+        </div>
+
+        <!-- CIRCULAR PROGRESS -->
+        <div class="progress-circle">
+            <div class="circle">
+                <div class="inner"></div>
+                <div class="number" id="progress-number">0%</div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
